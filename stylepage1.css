@@ -27,7 +27,6 @@ body {
     align-items: center;
     padding-left: 34%;
 }
-
 .black a {
     align-items: center;
     list-style: none;
@@ -56,13 +55,11 @@ body {
 .btns li {
     display: inline-block;
 }
-
 .btns li a {
     text-decoration: none;
     color: rgb(35, 38, 38);
     padding: 10px 20px;
 }
-
 .btns li a:hover {
     color: rgb(137, 120, 120);
     transition: 0.15s;
@@ -73,11 +70,9 @@ body {
     padding-top: 30px;
     padding-right: 30px;
 }
-
 .log li {
     display: inline-block;
 }
-
 .log li a {
     text-decoration: none;
 }
@@ -86,7 +81,6 @@ body {
     color: black;
     padding-right: 12px;
 }
-
 .login:hover {
     color: rgb(137, 120, 120);
     transition: 0.15s;
@@ -99,7 +93,6 @@ body {
     padding: 10px 20px;
     color: rgb(255, 255, 255);
 }
-
 .sign:hover {
     color: rgb(137, 120, 120);
     transition: 0.3s;
@@ -120,14 +113,12 @@ body {
     justify-content: center;
     padding-top: 80px;
 }
-
 .ads h1 {
     font-weight: lighter;
     color: rgb(35, 38, 38);
     font-size: 80px;
     padding-left: 20px;
 }
-
 .ads p {
     color: rgb(35, 38, 38);
     padding-left: 20px;
@@ -140,7 +131,6 @@ body {
     flex-direction: row;
     justify-content: flex-start;
 }
-
 .start a {
     display: flex;
     text-decoration: none;
@@ -157,7 +147,6 @@ body {
     margin-left: 20px;
     margin-top: 56px;
 }
-
 .buttom-start:hover {
     background-color: rgb(56, 54, 54);
     border: 2px solid rgb(56, 54, 54);
@@ -170,7 +159,6 @@ body {
     justify-content: space-around;
     padding-top: 25px;
 }
-
 .ads-down p {
     font-weight: lighter;
     font-size: 20px;
@@ -198,7 +186,6 @@ body {
     flex-direction: row;
     justify-content: center;
 }
-
 .disign h2 {
     font-weight: lighter;
     color: rgb(0, 0, 0);
@@ -216,14 +203,12 @@ body {
     padding-left: 260px;
     margin-right: 145px;
 }
-
 .strik h3 {
     font-weight: bolder;
     font-size: 40px;
     padding-bottom: 35px;
     color: rgb(35, 38, 38);
 }
-
 .strik p {
     font-weight: lighter;
     font-size: 20px;
@@ -232,7 +217,6 @@ body {
 .sign-buttom {
     padding-top: 70px;
 }
-
 .sign-buttom a {
     text-decoration: none;
     background-color: rgb(28, 26, 26);
@@ -241,7 +225,6 @@ body {
     padding: 14px 65px;
     border-radius: 11px;
 }
-
 .sign-buttom a:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(39, 37, 37);
@@ -272,12 +255,10 @@ body {
     padding-bottom: 30px;
     color: rgb(35, 38, 38);
 }
-
 .text-more p {
     font-weight: lighter;
     font-size: 20px;
 }
-
 .text-more {
     display: flex;
     flex-direction: column;
@@ -295,13 +276,11 @@ body {
 .work-text {
     margin-left: 50px;
 }
-
 .work-text h4 {
     padding-bottom: 30px;
     color: rgb(35, 38, 38);
     font-size: 32px;
 }
-
 .work-text a {
     color: rgb(35, 38, 38);
 }
@@ -311,7 +290,6 @@ body {
     align-items: stretch;
     margin-right: 120px;
 }
-
 .work-picture img {
     padding-right: 100px;
 }
@@ -322,20 +300,17 @@ body {
     align-items: center;
     padding-top: 150px;
 }
-
 .doit h2 {
     font-size: 58px;
     font-weight: bolder;
     color: rgb(35, 38, 38);
 }
-
 .doit p {
     font-size: 28px;
     color: rgb(35, 38, 38);
     font-weight: lighter;
     padding-top: 10px;
 }
-
 
 .markting-menu {
     display: flex;
@@ -344,27 +319,16 @@ body {
     padding-bottom: 40px;
     margin-left: 15%;
 }
-
 .markting-menu div {
     width: 33.33%;
     padding-top: 30px;
 }
-
- .product {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    align-items: stretch;
-    flex-wrap: wrap;
-}
-
- .markting-menu h3 {
+.markting-menu h3 {
     color: rgb(35, 38, 38);
     font-weight: lighter;
     font-size: 28px;
     padding-bottom: 20px;
 }
-
 .markting-menu li {
     list-style: none;
     display: flex;
@@ -372,7 +336,6 @@ body {
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-
 .markting-menu li a {
     color: rgb(68, 75, 75);
     text-decoration: none;
@@ -387,12 +350,19 @@ body {
     color: white;
 }
 
+ .product {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
 .browse {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 30px;
 }
-
 .browse a {
     color: black;
     font-weight: bold;
@@ -403,14 +373,12 @@ body {
     text-align: center;
     padding-top: 120px;
 }
-
 .why h2 {
     font-weight: bolder;
     color: rgb(35, 38, 38);
     font-size: 55px;
     padding-bottom: 20px;
 }
-
 .why p {
     font-weight: lighter;
     color: rgb(35, 38, 38);
@@ -424,7 +392,6 @@ body {
     justify-content: space-evenly;
     text-align: center;
 }
-
 .number p {
     padding-top: 30px;
     display: flex;
@@ -449,13 +416,11 @@ body {
     font-weight: bold;
     font-size: 60px;
 }
-
 .break h3 {
     padding-top: 25px;
     font-weight: bold;
     font-size: 20px;
 }
-
 .break p {
     padding-top: 15px;
     font-size: 20px;
@@ -476,7 +441,6 @@ body {
     padding: 15px 40px;
     border-radius: 8px;
 }
-
 .sign-break:hover {
     background-color: rgb(210, 206, 206);
     border: 1px rgb(210, 206, 206) solid;
@@ -492,9 +456,46 @@ body {
     padding: 15px 20px;
     border-radius: 8px;
 }
-
 .compare-break:hover {
     background-color: rgb(31, 28, 28);
     color: rgb(181, 174, 174);
     transition: 0.5s;
+}
+
+.footer-menu {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.menu1 li {
+    list-style: none;
+    padding-top: 25px;
+}
+.menu1 h3 {
+    font-weight: bolder;
+}
+.menu1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+.menu1 a:hover {
+    color: rgb(171, 164, 164);
+    transition: 0.15s;
+    font-size: 1.1em;
+}
+
+.footer-icon {
+    padding-top: 18px;
+}
+.footer-icon a img {
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.footer-icon a img:hover {
+    background-color: rgb(134, 130, 130);
 }
