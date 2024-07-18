@@ -51,7 +51,6 @@ body {
     list-style: none;
     padding-top: 30px;
 }
-
 .btns li {
     display: inline-block;
 }
@@ -469,6 +468,7 @@ body {
     color: white;
     justify-content: space-evenly;
     align-items: stretch;
+    padding-bottom: 150px;
 }
 
 .menu1 li {
@@ -492,10 +492,78 @@ body {
 .footer-icon {
     padding-top: 18px;
 }
-.footer-icon a img {
-    background-color: whitesmoke;
-    border-radius: 5px;
-}
 .footer-icon a img:hover {
     background-color: rgb(134, 130, 130);
+    transition: 0.15s;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.loc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    color: white;
+    padding-bottom: 30px;
+}
+.loc img {
+    margin-right: 10px;
+    width: 20px;
+}
+.loc p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.gol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.globe {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.Arrow {
+    border-radius: 5px;
+    width: 15px;
+}
+
+.gol a {
+    text-decoration: none;
+    color: white;
+}
+.gol a:hover {
+    color: rgb(157, 157, 157);
+    transition: 0.15s;
+}
+
+.link-down {
+    padding-top: 10px;
+}
+
+.link-down a {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.link-down a:hover {
+    color: rgb(157, 157, 157);
+    transition: 0.15s;
+}
+
+.name-down {
+    padding-top: 10px;
+    margin-right: 65px;
+    color: white;
 }
