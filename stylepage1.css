@@ -3,98 +3,82 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     color: black;
-    font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 17px;
+    max-width: 1600;
+    margin: auto;
+}
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
-.top-menu {
-    display: flex;
+
+.top-black {
     background-color: black;
-    height: 70px;
     color: white;
-    text-align: center;
-    flex-direction: row;
-}
-
-.black {
-    font-size: 17px;
-    padding: 5px;
-    color: white;
+    height: 65px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding-left: 34%;
+    max-width: 1700px;
+    margin: auto;
 }
-.black a {
-    align-items: center;
-    list-style: none;
+.top-text a {
     color: white;
+    font-weight: bold;
 }
 
 .menu {
     display: flex;
-    flex-direction: row;
+    max-width: 1510px;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
 }
-
-.logo {
-    padding-top: 30px;
-    padding-left: 30px;
+.menu-list ul {
     display: flex;
-    align-items: stretch;
 }
-
-.btns {
+.menu-list li {
+    padding: 28px;
     list-style: none;
-    padding-top: 30px;
 }
-.btns li {
-    display: inline-block;
-}
-.btns li a {
+.menu-list a {
+    color: rgb(58, 56, 56);
     text-decoration: none;
-    color: rgb(35, 38, 38);
-    padding: 10px 20px;
+    transition: all 0.2s;
 }
-.btns li a:hover {
-    color: rgb(137, 120, 120);
-    transition: 0.15s;
+.menu-list a:hover {
+    color: rgb(119, 116, 116);
 }
 
-.log {
+.menu-btn ul {
+    display: flex;
+}
+.menu-btn li {
+    padding: 10px;
     list-style: none;
-    padding-top: 30px;
-    padding-right: 30px;
 }
-.log li {
-    display: inline-block;
-}
-.log li a {
+.menu-btn a {
     text-decoration: none;
-}
-
-.login {
     color: black;
-    padding-right: 12px;
-}
-.login:hover {
-    color: rgb(137, 120, 120);
-    transition: 0.15s;
 }
 
 .sign {
-    border: 2px solid black;
-    border-radius: 8px;
     background-color: black;
-    padding: 10px 20px;
-    color: rgb(255, 255, 255);
+    border-radius: 10px;  
+    transition: all 0.2s;
+    margin-left: 10px;
 }
 .sign:hover {
-    color: rgb(137, 120, 120);
-    transition: 0.3s;
+    background-color: rgb(56, 56, 56);
+}
+.sign a {
+    color: white;
+    padding: 10px;
 }
 
 .middle-menu {
@@ -104,13 +88,15 @@ body {
 .advertise video {
     display: flex;
     padding-top: 85px;
+    width: 750px;
 }
 
 .ads {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 85px;
+    padding-left: 20px;
 }
 .ads h1 {
     font-weight: lighter;
@@ -146,12 +132,20 @@ body {
     margin-left: 20px;
     margin-top: 56px;
 }
+.buttom-start a {
+    font-weight: bold;
+}
 .buttom-start:hover {
     background-color: rgb(56, 54, 54);
     border: 2px solid rgb(56, 54, 54);
     transition: 0.5s;
 }
 
+.all-out{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
 .ads-down {
     display: flex;
     flex-direction: row;
@@ -266,31 +260,37 @@ body {
 
 .work {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    margin-top: 150px;
+    padding-top: 100px;
+    max-width: 1300px;
+    margin: auto;
+}
+.text-work h3 {
+    font-size: 35px;
+    color: rgb(43, 41, 41);
+    padding-bottom: 50px;
+}
+.text-work a {
+    font-size: 20px;
+    color: rgb(43, 41, 41);
 }
 
-.work-text {
-    margin-left: 50px;
-}
-.work-text h4 {
-    padding-bottom: 30px;
-    color: rgb(35, 38, 38);
-    font-size: 32px;
-}
-.work-text a {
-    color: rgb(35, 38, 38);
-}
-
-.work-picture {
+.icon {
     display: flex;
-    align-items: stretch;
-    margin-right: 120px;
+    align-items: center;
+    padding-left: 60px;
 }
-.work-picture img {
-    padding-right: 100px;
+.work-icon {
+    padding: 35px;
+}
+.icon1 {
+    background-color: rgb(237, 232, 232);
+    border-radius: 15px;
+    height: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin: 25px;
 }
 
 .doit {
@@ -301,11 +301,11 @@ body {
 }
 .doit h2 {
     font-size: 58px;
-    font-weight: bolder;
+    font-weight: 300;
     color: rgb(35, 38, 38);
 }
 .doit p {
-    font-size: 28px;
+    font-size: 23px;
     color: rgb(35, 38, 38);
     font-weight: lighter;
     padding-top: 10px;
@@ -404,11 +404,15 @@ body {
     background-color: rgb(34, 32, 32);
     padding-top: 90px;
     margin-top: 100px;
+    max-width: 1600px;
+    margin: auto;
 }
 
 .break {
     color: rgb(255, 255, 255);
     text-align: center;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .break h2 {
@@ -428,8 +432,9 @@ body {
 .break-btn {
     display: flex;
     justify-content: space-evenly;
-    padding: 25px 600px;
     padding-top: 50px;
+    max-width: 400px;
+    margin: auto;
 }
 
 .sign-break {
@@ -502,6 +507,10 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    background-color: rgb(34, 32, 32);
+    padding-bottom: 35px;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .loc {
@@ -509,9 +518,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 45px;
     color: white;
-    padding-bottom: 30px;
+    padding-top: 16px;
 }
 .loc img {
     margin-right: 10px;
@@ -526,7 +534,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .globe {
@@ -548,6 +556,16 @@ body {
     transition: 0.15s;
 }
 
+.cookie{
+    display: flex;
+}
+.cookie a {
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
 .link-down {
     padding-top: 10px;
 }
