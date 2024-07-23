@@ -197,7 +197,7 @@ body {
     margin-right: 145px;
 }
 .strik h3 {
-    font-weight: bolder;
+    font-weight: 300;
     font-size: 40px;
     padding-bottom: 35px;
     color: rgb(35, 38, 38);
@@ -243,7 +243,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-weight: bolder;
+    font-weight: 300;
     font-size: 40px;
     padding-bottom: 30px;
     color: rgb(35, 38, 38);
@@ -267,6 +267,7 @@ body {
 }
 .text-work h3 {
     font-size: 35px;
+    font-weight: 300;
     color: rgb(43, 41, 41);
     padding-bottom: 50px;
 }
@@ -284,7 +285,7 @@ body {
     padding: 35px;
 }
 .icon1 {
-    background-color: rgb(237, 232, 232);
+    background-color: rgb(247, 244, 244);
     border-radius: 15px;
     height: 150px;
     height: 200px;
@@ -373,7 +374,7 @@ body {
     padding-top: 120px;
 }
 .why h2 {
-    font-weight: bolder;
+    font-weight: 300;
     color: rgb(35, 38, 38);
     font-size: 55px;
     padding-bottom: 20px;
@@ -390,6 +391,7 @@ body {
     padding-top: 70px;
     justify-content: space-evenly;
     text-align: center;
+    padding-bottom: 60px;
 }
 .number p {
     padding-top: 30px;
