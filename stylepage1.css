@@ -450,12 +450,12 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 15px 40px;
     border-radius: 8px;
+    transition: 0.5s;
 }
 .sign-break:hover {
     background-color: rgb(210, 206, 206);
     border: 1px rgb(210, 206, 206) solid;
     color: rgb(11, 11, 11);
-    transition: 0.5s;
 }
 
 .compare-break {
@@ -465,11 +465,11 @@ body {
     background-color: rgb(34, 32, 32);
     padding: 15px 20px;
     border-radius: 8px;
+    transition: 0.5s;
 }
 .compare-break:hover {
     background-color: rgb(31, 28, 28);
     color: rgb(181, 174, 174);
-    transition: 0.5s;
 }
 
 .footer-menu {
@@ -493,19 +493,20 @@ body {
     text-decoration: none;
     color: white;
     font-size: 1em;
+    transition: 0.15s;
 }
 .menu1 a:hover {
     color: rgb(171, 164, 164);
-    transition: 0.15s;
-    font-size: 1.1em;
 }
 
 .footer-icon {
     padding-top: 18px;
 }
+.footer-icon a img {
+    transition: 0.15s;
+}
 .footer-icon a img:hover {
     background-color: rgb(134, 130, 130);
-    transition: 0.15s;
 }
 
 .down {
@@ -545,10 +546,10 @@ body {
 .gol a {
     text-decoration: none;
     color: white;
+    transition: 0.15s;
 }
 .gol a:hover {
     color: rgb(157, 157, 157);
-    transition: 0.15s;
 }
 
 .globe {
@@ -579,10 +580,10 @@ body {
     color: white;
     font-weight: bold;
     font-size: 13px;
+    transition: 0.15s;
 }
 .link-down a:hover {
     color: rgb(157, 157, 157);
-    transition: 0.15s;
 }
 
 .name-down {
